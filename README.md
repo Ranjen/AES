@@ -21,20 +21,18 @@ void xor_encrypt_decrypt(char *input, char *key) {
     }
 }
 int main() {
-    char url[] = "RAGHUL S";
+    char url[] = "RANJEN MUNUSWAMY K B";
     char key[] = "secretkey";
-    
     printf("Original text: %s\n", url);
     xor_encrypt_decrypt(url, key);
     printf("Encrypted text: %s\n", url);
     xor_encrypt_decrypt(url, key);
     printf("Decrypted text: %s\n", url);
-
     return 0;
 }
 ```
 # OUTPUT:
-<img width="735" height="373" alt="image" src="https://github.com/user-attachments/assets/75c9455a-fd34-4798-93c6-b52b13864a96" />
+<img width="724" height="436" alt="image" src="https://github.com/user-attachments/assets/a31e63d1-a4c0-4655-a52e-c94a5dfdf1cf" />
 
 # RESULT:
 The code are executed successfully verified.
